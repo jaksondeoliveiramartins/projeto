@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoty"  content="width=device-width,initial-scale=1.0">
+    <title> Formulario</title>
+    <link rel="stylesheet" href="fieldset.css"/>
+
+
+
+    
+</head>
+<body>
+<h1>Dados do cliente</h1>
+
+<form action="..//Aulas/Links/inicio.html" target="_blank" method="POST">
+    
+    <input type="hidden" name="country"value="BR"/>
+
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+    <label>
+        Primeiro Nome<br/>
+        <input type="text" name="name" required minlength="2" maxlength="4"/>
+ 
+
+ </label>
+    <br/>
+    Sobrenome:<br/>
+    <input type="text" name="lastname" />
+    <br/>
+
+</label>
+Foto:
+<input type="file" name="photo" accept="image/*"/>
+</label>
+<br/>
+
+</label>
+<br/>
+Idade:<br/>
+<input type="number"  idade="age" step="2" required/>
+
+<label>
+</fieldset>
+<fieldset>
+    <legend>Dados Profissionais</legend>
+    <label>
+        <br/>
+        Nome da Empresa:<br/>
+        <input type="text" name="companyname" />
+
+    </label>
+    <br/>
+<label>
+    Cargo na empresa:<br/>
+    <input type="text" name="titlejob"/>
+</label>
+</fieldset>
+<br/>
+<input type="submit" value="Cadastrar"/>
+
+
+
+
+
+
+
+</form>
+
+
+<h2>Area de Login</h2>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>

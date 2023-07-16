@@ -1,0 +1,19 @@
+.cloud {
+   
+}
+h1{
+     border:5px solid #0000ff
+}
+a {
+    font-size:25px;color:chartreuse; border:5px dotted #ff0000
+}
+img {
+    border:5px dashed #ff0000;
+}
+div {
+
+    background-color: blue;
+     width:200px;height: 200px; 
+     border-radius:100px;
+     border:3px solid #000000;
+}

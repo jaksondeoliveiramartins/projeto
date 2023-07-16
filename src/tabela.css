@@ -1,0 +1,31 @@
+table {
+    width:600px;
+
+   
+}
+
+table thead {
+    background-color:rgb(245, 243, 240);
+
+
+}
+table tbody {
+    background-color: rgb(230, 230, 226)
+
+
+}
+td,th {
+    padding: 10px;
+    text-align:left;
+}
+ tbody tr:hover {
+    background-color: chartreuse;
+
+}
+tbody td {
+    border-bottom:1px solid #000000
+}
+tbody tr:nth-child(even) {
+    background-color: #a30f0f;
+
+}

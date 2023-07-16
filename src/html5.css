@@ -1,0 +1,20 @@
+body {
+    margin:0px;
+}
+nav{
+    height: 50px;
+    background-color: rgb(210, 233, 9);
+}
+footer{
+    height:100px;
+    background-color: aquamarine;
+}
+.teste {
+    background-color: green;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+}

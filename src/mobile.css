@@ -1,0 +1,69 @@
+    .manutençao {
+        width:100%;
+        max-width:800px;
+        margin:auto;
+    }
+    .video-area{
+        position:relative;
+        height:0px;
+        background-color: #b91e1e;
+        padding:0px 0px 56.25%;
+    }
+    .video-area iframe {
+        position:absolute;
+        top:0px;
+        bottom:0px;
+        left:0px;
+        width:100%;
+        height:100%;
+        border:0px;
+    
+    
+    
+    }
+
+
+
+
+ body {
+    background-color: rgb(19, 212, 51);
+        
+    }
+table,td {
+    border:2px solid #00ff00
+}
+
+
+
+@media  (min-width:1000px) {
+body {
+    background-color: chocolate;
+}
+}
+@media  (min-width:700px) and (max-width:1000px) {
+
+body {
+    background-color: crimson;
+    }
+    h1 {
+        font-size: 20px;
+    }
+@media only print{
+        h1{font-size:12px;font-weight:bold;}
+    }
+table,td {
+    border:0px;
+}
+
+        
+    
+      
+}
+
+@media (min-width:300px) and (max-width:700px){
+    body{
+        background-color: darkgoldenrod;
+    }
+}
+
+

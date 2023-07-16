@@ -1,0 +1,93 @@
+@keyframes animaçao {
+    0%{top:0;left:0;}
+    25%{top:0;left:850px;}
+    50%{top:850px;left: 850px;}
+    75%{top:850px;left:0}
+    100%{top:0;left:0}
+
+}
+@keyframes analuiza {
+    0%{top:0;right:0;}
+    25%{top:0;right:850px;}
+    50%{top:850;right: 850px;}
+    75%{top:850px;right:0}
+    100%{top:0;right:0}
+
+}
+@keyframes samuel {
+    0%{top:0;bottom:0;right:0;left:0;}
+    25%{top:0;bottom:900px;right:700ox}
+    50%{top:900;bottom:900px;right:0;left:0px}
+    75%{top:900px;bottom:900px;right:600px;left:700px}
+    100%{top:900px;bottom:0;right:0;left:0}
+
+}
+
+
+
+
+border{
+    margin: 0;
+}
+body {
+background-color: chocolate;
+
+}
+
+.video {
+width: 150px;
+height:150px;
+margin:auto;
+background-color: blue;
+position: absolute;
+animation-name: animaçao;
+animation-duration: 30s;
+animation-iteration-count: infinite;
+transition: all 60s linear;
+}
+.analuiza {
+    width:150px;
+    height:150 px;
+    position: absolute;
+    animation-name:analuiza;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+
+}
+.samuel{
+    width:auto;
+    height:auto;
+    position: absolute;
+    animation-name: samuel;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+
+.video:hover{
+    width:200px;
+    height:auto ;
+}
+
+img {
+    width: 150px;
+    height:150px
+    
+
+
+}
+.transiçoes {
+    background-color: green;
+    width: 150px;
+    height:150px;
+    margin:auto;
+    margin-top:100px;
+    transition:all 1s linear;
+}
+.transiçoes:hover{
+width:300px;
+
+}
+

@@ -1,0 +1,31 @@
+body {
+    display:flex;
+}
+
+div {
+    background-color:none;
+    width:100px;
+    height:100px;
+    border:5px solid #00ff00
+    
+}
+border{
+    background-color: darkgrey;
+}
+@media  (orientation: landscape)    {
+body {
+    flex-direction: row;
+}
+}
+
+@media(orientation:portrait)    {
+    body{
+        flex-direction:column;
+    }
+
+}
+
+
+
+
+

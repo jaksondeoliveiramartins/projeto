@@ -1,0 +1,22 @@
+* {
+    box-sizing:border-box ;
+}
+body {
+    margin:0px;
+}
+
+.cloud {
+    color:blueviolet;font-size:30px;
+
+}
+.cloud:hover {
+    color:red
+
+
+}
+.cloud:visited {
+
+color:pink
+
+}
+

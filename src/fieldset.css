@@ -1,0 +1,16 @@
+label {
+    display:block;
+    padding: 5px;
+}fieldset {
+    background-color: #EEE;
+    border:2px solid #ff2600
+}
+legend{
+    background-color:#ff0000 ;
+    padding: 10px;
+
+
+}
+h1 {
+    color: blue;
+}
